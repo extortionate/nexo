@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXO REWARDS</title>
+  <link rel="icon" type="image/x-icon" href="logo.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="blob-fixed-br"></div>
+  <div class="blob-fixed-bl"></div>
+  <header class="site-nav enhanced-header">
+    <div class="nav-left">
+      <div class="brand-lockup">
+        <span class="brand-glyph" aria-hidden="true"></span>
+        <span class="brand-title">NEXO</span>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="#" class="enhanced-login">LEADERBOARD</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="enhanced-login" id="loginButton">LOGIN</button>
+      <button class="enhanced-login" id="adminButton" style="display:none;">ADMIN PANNEL</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1 class="hero-value">10,000</h1>
+    <p class="hero-sub">REWARD LEADERBOARD</p>
+
+    <div class="hero-buttons">
+      <div class="tab-btn-wrapper active">
+        <button class="tab-btn active" data-prize="10000">
+          <span class="tab-label">WEEKLY</span>
+        </button>
+        <span class="prize-badge">10K</span>
+      </div>
+      <div class="tab-btn-wrapper">
+        <button class="tab-btn" data-prize="10000">
+          <span class="tab-label">RAFFLE</span>
+        </button>
+        <span class="prize-badge">2.5K</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="top3-wrapper">
+    <div class="top-card second" data-position="2" data-name="PlayerTwo" data-wagered="0" data-prize="2000" data-avatar="https://via.placeholder.com/80">
+      <div class="tag">2nd</div>
+       <img class="avatar" src="https://via.placeholder.com/80" />
+      <h3>PlayerTwo</h3>
+      <p class="stat-label">WAGERED</p>
+      <p class="stat">0</p>
+      <div class="prize">PRIZE: 2,000</div>
+    </div>
+
+    <div class="top-card first" data-position="1" data-name="PlayerOne" data-wagered="0" data-prize="4000" data-avatar="https://via.placeholder.com/80">
+      <div class="tag">1st</div>
+       <img class="avatar" src="https://via.placeholder.com/80" />
+      <h3>PlayerOne</h3>
+      <p class="stat-label">WAGERED</p>
+      <p class="stat">0</p>
+      <div class="prize">PRIZE: 4,000</div>
+    </div>
+
+    <div class="top-card third" data-position="3" data-name="PlayerThree" data-wagered="0" data-prize="1250" data-avatar="https://via.placeholder.com/80">
+      <div class="tag">3rd</div>
+      <img class="avatar" src="https://via.placeholder.com/80" />
+      <h3>PlayerThree</h3>
+      <p class="stat-label">WAGERED</p>
+      <p class="stat">0</p>
+      <div class="prize">PRIZE: 1,250</div>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <section class="leaderboard-grid">
+      <div class="lb-card" data-position="4" data-name="PlayerFour" data-wagered="0" data-prize="750" data-avatar="https://via.placeholder.com/60">
+        <div class="lb-header">
+          <span class="position">#4</span>
+          <img class="avatar small" src="https://via.placeholder.com/60" alt="avatar 4" />
+          <span class="player-name">PlayerFour</span>
+        </div>
+        <div class="lb-body">
+          <span class="stat-label">WAGERED</span>
+          <span class="stat">0</span>
+        </div>
+        <div class="lb-footer">
+          <span class="prize-label">PRIZE:</span>
+          <span class="prize-value">750</span>
+        </div>
+      </div>
+
+      <div class="lb-card" data-position="5" data-name="PlayerFive" data-wagered="0" data-prize="600" data-avatar="https://via.placeholder.com/60">
+        <div class="lb-header">
+          <span class="position">#5</span>
+          <img class="avatar small" src="https://via.placeholder.com/60" alt="avatar 5" />
+          <span class="player-name">PlayerFive</span>
+        </div>
+        <div class="lb-body">
+          <span class="stat-label">WAGERED</span>
+          <span class="stat">0</span>
+        </div>
+        <div class="lb-footer">
+          <span class="prize-label">PRIZE:</span>
+          <span class="prize-value">600</span>
+        </div>
+      </div>
+
+      <div class="lb-card" data-position="6" data-name="PlayerSix" data-wagered="0" data-prize="500" data-avatar="https://via.placeholder.com/60">
+        <div class="lb-header">
+          <span class="position">#6</span>
+          <img class="avatar small" src="https://via.placeholder.com/60" alt="avatar 6" />
+          <span class="player-name">PlayerSix</span>
+        </div>
+        <div class="lb-body">
+          <span class="stat-label">WAGERED</span>
+          <span class="stat">0</span>
+        </div>
+        <div class="lb-footer">
+          <span class="prize-label">PRIZE:</span>
+          <span class="prize-value">500</span>
+        </div>
+      </div>
+
+      <div class="lb-card" data-position="7" data-name="PlayerSeven" data-wagered="0" data-prize="400" data-avatar="https://via.placeholder.com/60">
+        <div class="lb-header">
+          <span class="position">#7</span>
+          <img class="avatar small" src="https://via.placeholder.com/60" alt="avatar 7" />
+          <span class="player-name">PlayerSeven</span>
+        </div>
+        <div class="lb-body">
+          <span class="stat-label">WAGERED</span>
+          <span class="stat">0</span>
+        </div>
+        <div class="lb-footer">
+          <span class="prize-label">PRIZE:</span>
+          <span class="prize-value">300</span>
+        </div>
+      </div>
+
+      <div class="lb-card" data-position="8" data-name="PlayerEight" data-wagered="0" data-prize="350" data-avatar="https://via.placeholder.com/60">
+        <div class="lb-header">
+          <span class="position">#8</span>
+          <img class="avatar small" src="https://via.placeholder.com/60" alt="avatar 8" />
+          <span class="player-name">PlayerEight</span>
+        </div>
+        <div class="lb-body">
+          <span class="stat-label">WAGERED</span>
+          <span class="stat">0</span>
+        </div>
+        <div class="lb-footer">
+          <span class="prize-label">PRIZE:</span>
+          <span class="prize-value">250</span>
+        </div>
+      </div>
+
+      <div class="lb-card" data-position="9" data-name="PlayerNine" data-wagered="0" data-prize="300" data-avatar="https://via.placeholder.com/60">
+        <div class="lb-header">
+          <span class="position">#9</span>
+          <img class="avatar small" src="https://via.placeholder.com/60" alt="avatar 9" />
+          <span class="player-name">PlayerNine</span>
+        </div>
+        <div class="lb-body">
+          <span class="stat-label">WAGERED</span>
+          <span class="stat">0</span>
+        </div>
+        <div class="lb-footer">
+          <span class="prize-label">PRIZE:</span>
+          <span class="prize-value">200</span>
+        </div>
+      </div>
+
+      <div class="lb-card" data-position="10" data-name="PlayerTen" data-wagered="0" data-prize="250" data-avatar="https://via.placeholder.com/60">
+        <div class="lb-header">
+          <span class="position">#10</span>
+          <img class="avatar small" src="https://via.placeholder.com/60" alt="avatar 10" />
+          <span class="player-name">PlayerTen</span>
+        </div>
+        <div class="lb-body">
+          <span class="stat-label">WAGERED</span>
+          <span class="stat">0</span>
+        </div>
+        <div class="lb-footer">
+          <span class="prize-label">PRIZE:</span>
+          <span class="prize-value">150</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Login Modal -->
+  <div class="login-modal" id="loginModal">
+    <div class="login-modal-overlay"></div>
+    <div class="login-modal-content">
+      <button class="login-modal-close">&times;</button>
+      <div class="login-header">
+        <h2 class="login-title">LOGIN</h2>
+        <p class="login-subtitle">Access your account</p>
+      </div>
+      <form class="login-form" id="loginForm">
+        <div class="form-group">
+          <label for="username" class="form-label">Username or Email</label>
+          <input type="text" id="username" name="username" class="form-input" placeholder="Enter your username or email" required />
+        </div>
+        <div class="form-group">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" id="password" name="password" class="form-input" placeholder="Enter your password" required />
+        </div>
+        <div class="form-options">
+          <label class="checkbox-label">
+            <input type="checkbox" class="checkbox-input" />
+            <span>Remember me</span>
+          </label>
+          <a href="#" class="forgot-password">Forgot password?</a>
+        </div>
+        <button type="submit" class="login-submit-btn">LOGIN</button>
+        <div class="login-footer">
+          <p>Don't have an account? <a href="#" class="signup-link">Sign up</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Admin Panel Modal -->
+  <div class="admin-modal" id="adminModal" style="display:none;">
+    <div class="admin-modal-overlay"></div>
+    <div class="admin-modal-content">
+      <button class="admin-modal-close">&times;</button>
+      <div class="admin-header">
+        <div class="admin-header-main">
+          <h2 class="admin-title">ADMIN PANNEL</h2>
+          <p class="admin-subtitle">Manage leaderboard users</p>
+        </div>
+        <div class="admin-search">
+          <input
+            type="text"
+            id="adminSearchInput"
+            class="admin-search-input"
+            placeholder="Search players..."
+          />
+        </div>
+      </div>
+      <div class="admin-user-list" id="adminUserList">
+        <!-- Populated dynamically from current leaderboard cards -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Player Stats Modal -->
+  <div class="stats-modal" id="statsModal">
+    <div class="stats-modal-overlay"></div>
+    <div class="stats-modal-content">
+      <button class="stats-modal-close">&times;</button>
+      <div class="stats-header">
+        <div class="stats-position-badge"></div>
+        <img class="stats-avatar" src="" alt="Player Avatar" />
+        <h2 class="stats-player-name"></h2>
+      </div>
+      <div class="stats-body">
+        <div class="stat-item">
+          <span class="stat-item-label">Position</span>
+          <span class="stat-item-value stats-position"></span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-item-label">Total Wagered on code</span>
+          <span class="stat-item-value stats-wagered"></span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-item-label">Leaderboard Prize</span>
+          <span class="stat-item-value stats-prize"></span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-item-label">Games Played</span>
+          <span class="stat-item-value stats-games">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-item-label">Win Rate</span>
+          <span class="stat-item-value stats-winrate">0%</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-item-label">Total Wins</span>
+          <span class="stat-item-value stats-wins">0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">NEXO</div>
+        <div class="footer-tagline">Rewards leaderboard</div>
+        <div class="footer-meta">© 2025 NEXO Rewards</div>
+      </div>
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h4 class="footer-heading">Menu</h4>
+          <a href="#" class="footer-link">Leaderboards</a>
+          <a href="#" class="footer-link">More Links</a>
+        </div>
+        <div class="footer-column">
+          <h4 class="footer-heading">Information</h4>
+          <a href="#" class="footer-link">Terms &amp; Conditions</a>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </div>
+        <div class="footer-column footer-social">
+          <h4 class="footer-heading">Social</h4>
+          <div class="footer-social-icons">
+            <button type="button" class="footer-icon-btn footer-icon-yt" aria-label="YouTube"></button>
+            <button type="button" class="footer-icon-btn footer-icon-kick" aria-label="Kick"></button>
+            <button type="button" class="footer-icon-btn footer-icon-x" aria-label="X (Twitter)"></button>
+            <button type="button" class="footer-icon-btn footer-icon-twitch" aria-label="Twitch"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-designed">Developed by: wmp</a></span>
+      <span class="footer-age">18+ Responsible Gambling</span>
+    </div>
+  </footer>
+
+  <script>
+  // Tab switching functionality
+  const tabButtons = document.querySelectorAll('.tab-btn');
+  const heroValue = document.querySelector('.hero-value');
+  const tabWrappers = document.querySelectorAll('.tab-btn-wrapper');
+
+  tabButtons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+      // Remove active class from all buttons and wrappers
+      tabButtons.forEach(btn => btn.classList.remove('active'));
+      tabWrappers.forEach(wrapper => wrapper.classList.remove('active'));
+      
+      // Add active class to clicked button and its wrapper
+      button.classList.add('active');
+      tabWrappers[index].classList.add('active');
+      
+      // Update hero value based on selected tab
+      const prize = button.getAttribute('data-prize');
+      if (prize) {
+        heroValue.textContent = parseInt(prize).toLocaleString();
+      }
+
+  // Admin modal close interactions (overlay + close button)
+  if (adminModalOverlay) {
+    adminModalOverlay.addEventListener('click', closeAdminModal);
+  }
+
+  if (adminModalClose) {
+    adminModalClose.addEventListener('click', closeAdminModal);
+  }
+    });
+  });
+  // Login Modal functionality
+  const loginModal = document.getElementById('loginModal');
+  const loginBtn = document.getElementById('loginButton');
+  const adminButton = document.getElementById('adminButton');
+  const loginModalOverlay = document.querySelector('.login-modal-overlay');
+  const loginModalClose = document.querySelector('.login-modal-close');
+  const loginForm = document.getElementById('loginForm');
+  const usernameInput = document.getElementById('username');
+  const passwordInput = document.getElementById('password');
+
+  // Admin modal references
+  const adminModal = document.getElementById('adminModal');
+  const adminModalOverlay = adminModal ? adminModal.querySelector('.admin-modal-overlay') : null;
+  const adminModalClose = adminModal ? adminModal.querySelector('.admin-modal-close') : null;
+  const adminUserList = document.getElementById('adminUserList');
+
+  let isAdminLoggedIn = false;
+
+  // Function to open login modal
+  function openLoginModal() {
+    loginModal.classList.remove('closing');
+    loginModal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  // Function to close login modal
+  function closeLoginModal() {
+    if (!loginModal) return;
+    // start closing animation: keep modal visible, animate out, then fully hide
+    loginModal.classList.add('closing');
+    document.body.style.overflow = '';
+
+    setTimeout(() => {
+      loginModal.classList.remove('active');
+      loginModal.classList.remove('closing');
+    }, 600);
+  }
+
+  // Admin modal open/close helpers
+  function buildAdminUserList(filterText = '') {
+    if (!adminUserList) return;
+
+    const normalizedFilter = filterText.trim().toLowerCase();
+    adminUserList.innerHTML = '';
+
+    const cards = Array.from(document.querySelectorAll('.top-card, .lb-card'));
+
+    // Sort by numeric data-position so the admin list always shows Pos: 1, 2, 3... in order
+    cards
+      .slice()
+      .sort((a, b) => {
+        const pa = parseInt(a.getAttribute('data-position') || '0', 10);
+        const pb = parseInt(b.getAttribute('data-position') || '0', 10);
+        return pa - pb;
+      })
+      .forEach((card) => {
+        const position = card.getAttribute('data-position') || '';
+        const name = card.getAttribute('data-name') || '';
+        const wagered = card.getAttribute('data-wagered') || '0';
+        const prize = card.getAttribute('data-prize') || '0';
+
+        const row = document.createElement('div');
+        row.className = 'admin-user-card';
+
+        row.innerHTML = `
+          <div class="admin-user-main">
+            <div class="admin-user-name">${name}</div>
+            <div class="admin-user-meta">
+              <span class="pill">Pos: ${position}</span>
+              <span class="pill">Wagered: ${parseInt(wagered, 10).toLocaleString()}</span>
+              <span class="pill">Prize: ${parseInt(prize, 10).toLocaleString()}</span>
+            </div>
+          </div>
+          <div class="admin-user-actions">
+            <button class="admin-action admin-view">View stats</button>
+            <button class="admin-action admin-reset">Reset wagered</button>
+            <button class="admin-action admin-remove">Remove</button>
+          </div>
+        `;
+
+        // Wire up actions for this row
+        const viewBtn = row.querySelector('.admin-view');
+        const resetBtn = row.querySelector('.admin-reset');
+        const removeBtn = row.querySelector('.admin-remove');
+
+        if (viewBtn) {
+          viewBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            // Reuse existing stats modal for this player
+            openStatsModal(card);
+          });
+        }
+
+        if (resetBtn) {
+          resetBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            alert(`(Demo) Would reset wagered amount for ${name}.`);
+          });
+        }
+
+        if (removeBtn) {
+          removeBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            // Animate both the real leaderboard card and this admin row
+            closePlayerCard(card);
+            row.classList.add('closing');
+            setTimeout(() => {
+              row.remove();
+            }, 1100);
+          });
+        }
+
+        // If there is a filter and this name doesn’t match, skip appending
+        if (normalizedFilter && !name.toLowerCase().includes(normalizedFilter)) {
+          return;
+        }
+
+        adminUserList.appendChild(row);
+      });
+  }
+
+  function openAdminModal() {
+    if (!adminModal) return;
+
+    // Build the admin list fresh from current leaderboard cards
+    buildAdminUserList('');
+
+    adminModal.classList.remove('closing');
+    adminModal.classList.add('active');
+    adminModal.style.display = 'flex';
+    // Lock background scrolling on both body and html while admin panel is open
+    document.body.style.overflow = 'hidden';
+    document.documentElement.style.overflow = 'hidden';
+  }
+
+  function closeAdminModal() {
+    if (!adminModal) return;
+    adminModal.classList.add('closing');
+    document.body.style.overflow = '';
+    document.documentElement.style.overflow = '';
+
+    setTimeout(() => {
+      adminModal.classList.remove('active');
+      adminModal.classList.remove('closing');
+      adminModal.style.display = 'none';
+    }, 600);
+  }
+
+  // Add click listener to login/logout button
+  if (loginBtn) {
+    loginBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+
+      if (isAdminLoggedIn) {
+        // LOGOUT behaviour
+        isAdminLoggedIn = false;
+        if (adminButton) {
+          adminButton.style.display = 'none';
+        }
+        loginBtn.textContent = 'LOGIN';
+        closeAdminModal();
+      } else {
+        // Normal LOGIN
+        openLoginModal();
+      }
+    });
+  }
+
+  // Close modal on overlay click
+  if (loginModalOverlay) {
+    loginModalOverlay.addEventListener('click', closeLoginModal);
+  }
+
+  // Close modal on close button click
+  if (loginModalClose) {
+    loginModalClose.addEventListener('click', closeLoginModal);
+  }
+
+  // Handle simulated admin login
+  if (loginForm) {
+    loginForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const username = usernameInput ? usernameInput.value.trim() : '';
+      const password = passwordInput ? passwordInput.value : '';
+
+      if (username === 'admin' && password === '12345') {
+        isAdminLoggedIn = true;
+
+        // Clear the form for next time
+        if (usernameInput) usernameInput.value = '';
+        if (passwordInput) passwordInput.value = '';
+
+        // Reveal the ADMIN PANNEL button in the header
+        if (adminButton) {
+          adminButton.style.display = 'inline-block';
+        }
+
+        // Toggle LOGIN button label to LOGOUT when logged in
+        if (loginBtn) {
+          loginBtn.textContent = 'LOGOUT';
+        }
+
+        // Close the login modal
+        closeLoginModal();
+      } else {
+        // Simple feedback for wrong credentials (no backend, purely front-end)
+        alert('Invalid credentials. Use admin / 12345 for this demo.');
+      }
+    });
+  }
+
+  // Admin button click (simulated admin panel entry)
+  if (adminButton) {
+    adminButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (!isAdminLoggedIn) {
+        // Should not really happen because the button only shows after login,
+        // but keep the guard just in case.
+        alert('Please log in as admin first.');
+        return;
+      }
+      openAdminModal();
+    });
+  }
+
+  // Admin search filtering
+  const adminSearchInput = document.getElementById('adminSearchInput');
+  if (adminSearchInput) {
+    adminSearchInput.addEventListener('input', (e) => {
+      const value = e.target.value || '';
+      buildAdminUserList(value);
+    });
+  }
+  // Admin modal close interactions (overlay + close button)
+  if (adminModalOverlay) {
+    adminModalOverlay.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      closeAdminModal();
+    });
+
+    // Prevent wheel events on the overlay from bubbling to the page
+    adminModalOverlay.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+    }, { passive: false });
+  }
+
+  if (adminModalClose) {
+    adminModalClose.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      closeAdminModal();
+    });
+  }
+
+  // Player Stats Modal functionality
+  const statsModal = document.getElementById('statsModal');
+  const modalOverlay = document.querySelector('.stats-modal-overlay');
+  const modalClose = document.querySelector('.stats-modal-close');
+  const playerCards = document.querySelectorAll('.top-card, .lb-card');
+
+  // Function to get position suffix
+  function getPositionSuffix(position) {
+    const pos = parseInt(position);
+    if (pos === 1) return '1st';
+    if (pos === 2) return '2nd';
+    if (pos === 3) return '3rd';
+    return `#${pos}`;
+  }
+
+  // Function to generate avatar URL from name using random real-world photo thumbnails (non-person specific)
+  function getAvatarUrl(name, size = 80) {
+    const seed = encodeURIComponent(name);
+    // Picsum returns random photographic images; seeding by name keeps each player visually distinct
+    return `https://picsum.photos/seed/${seed}/${size}/${size}`;
+  }
+
+  // Random gamer tag generation using existing prefix/suffix lists
+  const prefixes = ["Gamer", "Pro", "Master", "Elite", "Ninja", "Rex", "Z", "X", "99", "Vortex", "Shadow", "Blitz"];
+  const suffixes = ["X", "Z", "99", "Rex", "95", "V", "K", "9", "R", "999", "9999", "99999"];
+  const usedNames = new Set();
+
+  function getRandomGamerTag() {
+    let name;
+    do {
+      const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
+      const suffix = suffixes[Math.floor(Math.random() * suffixes.length)];
+      name = `${prefix}${suffix}`;
+    } while (usedNames.has(name)); // Ensure unique name
+    usedNames.add(name);
+    return name;
+  }
+
+  function assignRandomNamesFromList() {
+    const cards = Array.from(document.querySelectorAll('.top-card, .lb-card'));
+
+    cards.forEach(card => {
+      const name = getRandomGamerTag();
+      card.setAttribute('data-name', name);
+
+      const nameEl = card.querySelector('h3, .player-name');
+      if (nameEl) {
+        nameEl.textContent = name;
+      }
+    });
+  }
+
+  assignRandomNamesFromList();
+
+  // Update all player card avatars based on their data-name so leaderboard and stats stay in sync
+  document.querySelectorAll('.top-card, .lb-card').forEach(card => {
+    const name = card.getAttribute('data-name');
+    const avatarEl = card.querySelector('.avatar');
+    if (name && avatarEl) {
+      const size = avatarEl.classList.contains('small') ? 60 : 80;
+      avatarEl.src = getAvatarUrl(name, size);
+    }
+  });
+
+  // Function to open modal with player data
+  function openStatsModal(card) {
+    const position = card.getAttribute('data-position');
+    const name = card.getAttribute('data-name');
+    const wagered = card.getAttribute('data-wagered');
+    const prize = card.getAttribute('data-prize');
+    const avatar = card.getAttribute('data-avatar');
+
+    // Populate modal with data
+    const badgeEl = document.querySelector('.stats-position-badge');
+    if (badgeEl) {
+      badgeEl.textContent = getPositionSuffix(position);
+      badgeEl.classList.remove('first-rank', 'second-rank', 'third-rank');
+      const posNum = parseInt(position, 10);
+      if (posNum === 1) badgeEl.classList.add('first-rank');
+      else if (posNum === 2) badgeEl.classList.add('second-rank');
+      else if (posNum === 3) badgeEl.classList.add('third-rank');
+    }
+
+    const avatarImg = document.querySelector('.stats-avatar');
+    if (avatarImg) {
+      avatarImg.classList.remove('loaded');
+      avatarImg.src = '';
+      avatarImg.onload = () => {
+        avatarImg.classList.add('loaded');
+      };
+      avatarImg.src = getAvatarUrl(name, 128); // Larger size for modal
+      avatarImg.alt = `Avatar for ${name}`;
+    }
+    document.querySelector('.stats-player-name').textContent = name;
+    document.querySelector('.stats-position').textContent = getPositionSuffix(position);
+    document.querySelector('.stats-wagered').textContent = parseInt(wagered).toLocaleString();
+    document.querySelector('.stats-prize').textContent = parseInt(prize).toLocaleString();
+
+    // Show modal
+    statsModal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  // Function to close modal
+  function closeStatsModal() {
+    if (!statsModal) return;
+    // Start smooth close animation: mark as closing, then fully hide after animation
+    statsModal.classList.add('closing');
+    document.body.style.overflow = '';
+
+    setTimeout(() => {
+      statsModal.classList.remove('active');
+      statsModal.classList.remove('closing');
+    }, 700); // match faster 0.7s statsModalOut duration
+  }
+
+  // Add click listeners to all player cards
+  playerCards.forEach(card => {
+    card.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openStatsModal(card);
+    });
+  });
+
+  // Close modal on overlay click
+  modalOverlay.addEventListener('click', closeStatsModal);
+
+  // Close modal on close button click
+  modalClose.addEventListener('click', closeStatsModal);
+
+  // Close modal on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      if (statsModal.classList.contains('active')) {
+        closeStatsModal();
+      }
+      if (loginModal && loginModal.classList.contains('active')) {
+        closeLoginModal();
+      }
+      if (adminModal && adminModal.classList.contains('active')) {
+        closeAdminModal();
+      }
+    }
+  });
+
+  // Reuse login-style close animation for player cards
+  function closePlayerCard(cardEl) {
+    if (!cardEl) return;
+    cardEl.classList.add('closing'); // triggers CSS: .top-card.closing, .lb-card.closing (cardCloseOut)
+    setTimeout(() => {
+      cardEl.remove();
+    }, 1100); // match cardCloseOut (~1.05s) so removal happens after the smooth close finishes
+  }
+
+  // Demo helper: press "C" to close the first leaderboard card with animation
+  document.addEventListener('keydown', (e) => {
+    if (e.key.toLowerCase() === 'c') {
+      const firstCard = document.querySelector('.lb-card');
+      if (firstCard) {
+        closePlayerCard(firstCard);
+      }
+    }
+  });
+</script>
+</body>
+</html>
